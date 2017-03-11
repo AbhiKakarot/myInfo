@@ -1,4 +1,4 @@
-body { background:white; margin:0px;}
+body { background:white;}
 
 .resume{background:url('images/bg.jpg'); background-attachment:fixed; background-size:contain;
 height:2700px; width:100%; }

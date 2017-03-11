@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>RESUME</title>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Pacifico" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Itim" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<img class="resume">
+<section class="header">
+<h3>Abhishek Munjal</h3>
+<h5>munjalabhishek1996@gmail.com - 09891333838</h5>
+<h5>D-59, Tagore Garden Extension New Delhi 110027</h5>
+</section>
+<br><hr>
+<section class="edu margin-below">
+<pre>
+<h2>EDUCATION:</h2>
+
+<h4>Bachelor of Science (B. Sc), Computer Science (2014 - 2017)-
+Kirori Mal College</h4>
+
+<h4>XII (Senior Secondary), Science
+Year of Completion: 2014 
+CBSE Board (Kendriya Vidyalaya Tagore Garden New Delhi)</h4>
+</pre>
+</section>
+
+<section class="margin-below">
+<pre>
+<h2>PERSONAL INTERESTS:</h2>
+<h4>Drawing , Swimming , Cricket , Coding , Movies , Songs.</h4>
+</pre>
+</section>
+
+<section class="margin-below">
+<pre>
+<h2>SKILLS:</h2>
+<h4>
+C++ Programming			Intermediate
+Java				Beginner
+Django				Beginner
+HTML				Intermediate
+CSS				Intermediate
+JavaScript			Beginner
+Python				Beginner
+MySQL				Beginner
+J query				Beginner
+</h4>
+</pre>
+</section>
+
+<section class="margin-below">
+<pre>
+<h2>WORK SAMPLES:</h2> 
+<h3>Blog Link:</h3> 
+<a href="http://www.kernelgiru.wordpress.com">http://www.kernelgiru.wordpress.com</a>
+
+<h3>Git-Hub Profile:</h3> 
+<a href="https://github.com/AbhiNishu">https://github.com/AbhiNishu</a>
+
+<h3>Git-hub Page:</h3>
+<a href="https://abhinishu.github.io/myInfo">https://abhinishu.github.io/myInfo</a>
+</pre>
+</section>
+
+</body>
+</html>

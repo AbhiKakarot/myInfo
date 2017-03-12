@@ -1,7 +1,7 @@
 body { background:white; margin:0px;}
 
 .resume{background:url('images/bg.jpg'); background-attachment:fixed; background-size:contain;
-height:2700px; width:100%; }
+height:2200px; width:100%; }
 
 .header h5{color:blue;}
 pre h4{color:blue;}
@@ -87,6 +87,8 @@ p{word-spacing:3px; font-size:18px;}
 @media only screen and (max-width: 350px)
 {
 
+.resume{ height:1500px;}
+
 pre h2{font-size:18px;}
 pre h3{font-size:12px;}
 pre h4{font-size:12px;}
@@ -114,6 +116,8 @@ left:20%;
 
 @media only screen and (min-width: 350px) and (max-width: 700px)
 {
+
+.resume{ height:1600px;}
 
 pre h2{font-size:20px;}
 pre h3{font-size:15px;}

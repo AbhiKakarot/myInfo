@@ -1,5 +1,6 @@
 <html>
 <HEAD>
+<title>Error Loading Page</title>
 <SCRIPT LANGUAGE="JavaScript">
 function LogIn(){
 loggedin=false;
@@ -17,13 +18,16 @@ if (loggedin==false) {
 alert("Invalid login!");
 }
 }
-</SCRIPT> 
+</SCRIPT>
+</head>
 <body>
-<center>
-<h2 style="color:red">Access Restricted.</h2>
+<div style="border-top:2px red solid; background:#F1F2F2;">
+<img src="images/error.png" height="40px" width="40px"/>
+<h2 style="float:right; width:95%;color:red">Access Denied!</h2>
 <br>
-<form><input type=button value="Continue?" onClick="LogIn()"></form>
-<img src="images/danger.jpg" height="500px" width="500px">
-</center>
+<br>
+<p>You do not have permission to access this page</p>
+<p>Contact the network administrator if you know <a style="text-decoration:none; color:black; cursor:default;"href="javascript:LogIn();">him</a></p>
+</div>
 </body>
 </html>

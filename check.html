@@ -3,6 +3,7 @@
 <title>Error Loading Page</title>
 <SCRIPT LANGUAGE="JavaScript">
 function LogIn(){
+pass = "AϟZ";
 loggedin=false;
 username="";
 password="";
@@ -10,7 +11,7 @@ username=prompt("Username:","");
 username=username.toLowerCase();
 password=prompt("Password:","");
 password=password.toLowerCase();
-if (username=="abfriend" && password=="abhishek") { 
+if (username=="abfriend" && password==pass) { 
 loggedin=true;
 window.location="resume.html";
 }

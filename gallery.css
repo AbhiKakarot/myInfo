@@ -8,11 +8,10 @@ body{background:#E2EAED;}
 img{width:1024px;}
 
 .img1{background:url(images/IMG_0179_2.jpg) no-repeat; height:400px; width:50%; max-width:480px; background-size:contain;}
-.img2{background:url(images/IMG_0176.jpg) no-repeat; height:535px; width:100%; background-size:contain;}
-.img3{background:url(images/IMG_0180.jpg) no-repeat; height:535px; width:100%; background-size:contain;}
-.img4{background:url(images/IMG_3959.jpg) no-repeat; height:400px; width:50%; max-width:480px; background-size:contain; float:right;}
-.img5{background:url(images/IMG_3960.jpg) no-repeat; height:535px; width:100%; background-size:contain; }
-.img6{background:url(images/IMG_3962.jpg) no-repeat; height:402px; width:100%; background-size:contain;}
+.img2{background:url(images/IMG_0176.JPG) no-repeat; height:535px; width:100%; background-size:contain;}
+.img3{background:url(images/IMG_0180.JPG) no-repeat; height:535px; width:100%; background-size:contain;}
+.img4{background:url(images/IMG_3959.JPG) no-repeat; height:400px; width:50%; max-width:480px; background-size:contain; float:right;}
+.img5{background:url(images/IMG_3960.JPG) no-repeat; height:535px; width:100%; background-size:contain; }
 .img7{background:url(images/IMG_3962_2.jpg) no-repeat; height:400px; width:50%; max-width:480px; background-size:contain;}
 .img8{background:url(images/IMG_3962_1.jpg) no-repeat; height:400px; width:50%; max-width:480px; background-size:contain; float:right;}
 

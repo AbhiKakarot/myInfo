@@ -1,0 +1,30 @@
+body{background:#E2EAED;}
+
+.navbar{background:#30D9B8; height:68px; margin-bottom:0px;}
+.navbar h4{color:white; font-size:30px; font-family:'Itim',cursive; margin-left:65px;}
+
+.photos{max-width:2048px;}
+
+img{width:100%; height:auto;}
+
+.col-sm-6{padding-left:0px; padding-right:0px;}
+
+.content
+{
+text-align:center;
+display:none;
+}
+.content h2{font-size:30px; font-family:'Pacifico',cursive;}
+.fa{font-size:160px;}
+.content h4{font-size:50px; font-family:'Satisfy',cursive;}
+
+@media only screen and (min-width: 821px)
+{
+
+}
+
+@media only screen and (max-width: 360px)
+{
+.navbar{height:40px;}
+.navbar h4{font-size:18px; margin-left:25px;}
+}

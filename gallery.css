@@ -1,13 +1,20 @@
 body{background:#E2EAED;}
 
 .navbar{background:#30D9B8; height:68px; margin-bottom:0px;}
-.navbar h4{color:white; font-size:30px; font-family:'Itim',cursive; margin-left:65px;}
+.navbar h4{color:white; font-size:30px; font-family:'Itim',cursive; margin-left:90px;}
 
 .photos{max-width:2048px;}
 
 img{width:100%; height:auto;}
 
 .col-sm-6{padding-left:0px; padding-right:0px;}
+
+.border{border:5px solid white; border-radius:50%; width:65px; height:65px; position:absolute; left:3%; top:1%;}
+.border:hover{border:5px solid black;}
+.border>.A:hover{color:black;}
+.border>.M:hover{color:black;}
+.A{position:absolute; left:11%; top:-20%; font-family:'Gloria Hallelujah',cursive; font-size:31px; color:white;}
+.M{position:absolute; left:40%; font-family:'Gloria Hallelujah',cursive; font-size:31px; color:white;}
 
 .content
 {
@@ -18,13 +25,15 @@ display:none;
 .fa{font-size:160px;}
 .content h4{font-size:50px; font-family:'Satisfy',cursive;}
 
-@media only screen and (min-width: 821px)
-{
-
-}
-
 @media only screen and (max-width: 360px)
 {
 .navbar{height:40px;}
-.navbar h4{font-size:18px; margin-left:25px;}
+.navbar h4{font-size:18px; margin-left:50px;}
+.border{border:1px solid white; border-radius:50%; width:35px; height:35px; position:absolute; top:5%; left:3%;}
+.A{position:absolute; left:11%; top:-35%; font-family:'Gloria Hallelujah',cursive; font-size:15px; color:white;}
+.M{position:absolute; left:40%; top:-15%; font-family:'Gloria Hallelujah',cursive; font-size:15px; color:white;}
+.border:hover{border:1px solid black;}
+.border>.A:hover{color:black;}
+.border>.M:hover{color:black;}
+
 }

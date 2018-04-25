@@ -3,7 +3,7 @@ body { background:white; margin:0px;}
 .resume{background:url('images/bg.jpg'); background-attachment:fixed; background-size:contain;
  width:100%; }
 
-.class-projects{font-weight:normal; font-size:20px; color:black; font-family:'Helvetica',cursive;}
+.class-projects{font-weight:normal; font-size:25px; color:black; font-family:'Helvetica',cursive;}
 
 .header h3{    -webkit-margin-before: 0px;
     -webkit-margin-after: 0px;}
@@ -106,7 +106,7 @@ margin-left:0px;
 pre h2{font-size:20px;}
 pre h3{font-size:15px;}
 pre h4{font-size:15px;}
-
+.class-projects{font-size:11px;}
 .content
 {
 position:absolute;
@@ -139,7 +139,7 @@ margin-left:80px;
 pre h2{font-size:27px;}
 pre h3{font-size:20px;}
 pre h4{font-size:20px;}
-
+.class-projects{font-size:16px;}
 .header h3{font-size:24px;}
 
 
@@ -171,7 +171,7 @@ margin-left:50px;
 pre h2{font-size:24px;}
 pre h3{font-size:18px;}
 pre h4{font-size:18px;}
-
+.class-projects{font-size:14px;}
 .header h3{font-size:24px;}
 
 
@@ -202,7 +202,7 @@ margin-left:20px;
 pre h2{font-size:22px;}
 pre h3{font-size:17px;}
 pre h4{font-size:17px;}
-
+.class-projects{font-size:13px;}
 .header h3{font-size:24px;}
 
 
@@ -235,7 +235,7 @@ margin-left:5px;
 pre h2{font-size:21px;}
 pre h3{font-size:16px;}
 pre h4{font-size:16px;}
-
+.class-projects{font-size:12px;}
 .header h3{font-size:24px;}
 
 

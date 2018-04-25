@@ -19,7 +19,7 @@ margin-left:100px; margin-top:50px; margin-bottom:50px;
 border-top:solid #C46561 9px; border-bottom:solid #C46561 9px;
 contain:content;
 }
-
+.hand-img{height:50px;}
 .bg
 {
 position:relative;
@@ -107,6 +107,7 @@ pre h2{font-size:20px;}
 pre h3{font-size:15px;}
 pre h4{font-size:15px;}
 .class-projects{font-size:11px;}
+.hand-img{height:20px;}
 .content
 {
 position:absolute;
@@ -135,7 +136,7 @@ left:20%;
 margin-left:80px;
 }
 
-
+.hand-img{height:40px;}
 pre h2{font-size:27px;}
 pre h3{font-size:20px;}
 pre h4{font-size:20px;}
@@ -167,7 +168,7 @@ left:30%;
 margin-left:50px;
 }
 
-
+.hand-img{height:40px;}
 pre h2{font-size:24px;}
 pre h3{font-size:18px;}
 pre h4{font-size:18px;}
@@ -198,7 +199,7 @@ left:30%;
 margin-left:20px;
 }
 
-
+.hand-img{height:30px;}
 pre h2{font-size:22px;}
 pre h3{font-size:17px;}
 pre h4{font-size:17px;}
@@ -231,7 +232,7 @@ left:30%;
 margin-left:5px;
 }
 
-
+.hand-img{height:20px;}
 pre h2{font-size:21px;}
 pre h3{font-size:16px;}
 pre h4{font-size:16px;}

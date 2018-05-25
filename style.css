@@ -1,21 +1,18 @@
 body { background:white; margin:0px;}
 
 .resume{background:url('images/bg.jpg'); background-attachment:fixed; background-size:contain;
- width:100%; }
+ width:100vw; }
 
-.class-projects{font-weight:normal; font-size:25px; color:black; font-family:'Helvetica',cursive;}
+.class-projects{font-weight:200; color:black; font-family:'Helvetica',cursive; font-size:0.8em;}
 
 .header h3{    -webkit-margin-before: 0px;
     -webkit-margin-after: 0px;}
-.header h5{color:blue;} h3{font-size:30px; font-family:'Itim',cursive;}
-pre h4{color:blue;}
+.header h3{color:black; font-family:'Itim',cursive;}
+h3{color:blue;}
 .margin-below{margin-bottom:70px;}
-pre h2{font-size:30px; font-family:'Itim',cursive;}
-pre h3{font-size:25px; font-family:'Itim',cursive;}
-pre h4{font-size:25px; font-family:'Itim',cursive;}
 
-.resume-inside{ background:white; margin-right:100px;
-margin-left:100px; margin-top:50px; margin-bottom:50px;
+.resume-inside{ background:white; margin-right:5%;
+margin-left:5%; margin-top:10%; margin-bottom:10%px;
 border-top:solid #C46561 9px; border-bottom:solid #C46561 9px;
 contain:content;
 }
@@ -23,36 +20,38 @@ contain:content;
 .bg
 {
 position:relative;
-height:500px;
-width:100%;
+height:70vh;
+width:100vw;
 background:#2DBFFF;
 margin-bottom:200px;
 }
 
+.blacklink{color:black; text-decoration:none;}
+.blacklink:hover{text-decoration:underline;}
+
 .content
 {
 position:absolute;
-top:35%;
-left:35%;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
 }
 
 .content h1{
-font-size:50px;
 color:white;
 font-family:'Satisfy',cursive;
 text-align:center;
 }
 
 .content h4{
-font-size:30px;
 text-align:center;
 }
 
 .myphoto 
 {
 position:absolute;
-top:77%;
-left:40%;
+top:75%;
+left:45%;
 background-image: url("images/ME.jpg");
 background-size:190px;
 background-repeat:no-repeat;
@@ -62,7 +61,7 @@ width:200px;
 border:5px solid white;
 /*-ms-transform: rotate(-25deg); // IE 9 
     -webkit-transform: rotate(-25deg); // Chrome, Safari, Opera*/
-    transform: rotate(-35deg);
+transform: translate(-25%,0) rotate(-35deg); 
 
 }
 
@@ -97,164 +96,36 @@ p{word-spacing:3px; font-size:18px;}
 @media only screen and (max-width: 350px)
 {
 
-.resume-inside{ margin-right:0px;
-margin-left:0px;
-}
-
-
-
-pre h2{font-size:20px;}
-pre h3{font-size:15px;}
-pre h4{font-size:15px;}
-.class-projects{font-size:11px;}
 .hand-img{height:20px;}
-.content
-{
-position:absolute;
-top:25%;
-left:12%;
 }
 
-.content h1{ font-size: 30px;}
-
-.content h4{ font-size: 25px;}
-
-.header h3{font-size:18px;}
-
-.myphoto 
-{
-position:absolute;
-top:77%;
-left:20%;
-}
 
 }
 @media only screen and (min-width: 540px) and (max-width:700px)
 {
 
-.resume-inside{ margin-right:80px;
-margin-left:80px;
-}
 
 .hand-img{height:40px;}
-pre h2{font-size:27px;}
-pre h3{font-size:20px;}
-pre h4{font-size:20px;}
-.class-projects{font-size:16px;}
-.header h3{font-size:24px;}
-
-
-.content
-{
-position:absolute;
-top:25%;
-left:23%;
-}
-
-
-.myphoto 
-{
-position:absolute;
-top:77%;
-left:30%;
-}
-
 
 }
 
 @media only screen and (min-width: 460px) and (max-width: 540px)
 {
-.resume-inside{ margin-right:50px;
-margin-left:50px;
-}
-
 .hand-img{height:40px;}
-pre h2{font-size:24px;}
-pre h3{font-size:18px;}
-pre h4{font-size:18px;}
-.class-projects{font-size:14px;}
-.header h3{font-size:24px;}
-
-
-.content
-{
-position:absolute;
-top:25%;
-left:23%;
-}
-
-
-.myphoto 
-{
-position:absolute;
-top:77%;
-left:30%;
-}
 
 }
 
 @media only screen and (min-width: 400px) and (max-width: 460px)
 {
-.resume-inside{ margin-right:20px;
-margin-left:20px;
-}
-
 .hand-img{height:30px;}
-pre h2{font-size:22px;}
-pre h3{font-size:17px;}
-pre h4{font-size:17px;}
-.class-projects{font-size:13px;}
-.header h3{font-size:24px;}
-
-
-.content
-{
-position:absolute;
-top:25%;
-left:23%;
-}
-
-
-.myphoto 
-{
-position:absolute;
-top:77%;
-left:30%;
-}
-
 }
 
 
 
 @media only screen and (min-width: 350px) and (max-width: 400px)
 {
-.resume-inside{ margin-right:5px;
-margin-left:5px;
-}
 
 .hand-img{height:20px;}
-pre h2{font-size:21px;}
-pre h3{font-size:16px;}
-pre h4{font-size:16px;}
-.class-projects{font-size:12px;}
-.header h3{font-size:24px;}
-
-
-.content
-{
-position:absolute;
-top:25%;
-left:23%;
-}
-
-
-.myphoto 
-{
-position:absolute;
-top:77%;
-left:30%;
-}
-
 }
 
 

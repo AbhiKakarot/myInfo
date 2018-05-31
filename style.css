@@ -179,6 +179,8 @@ p{word-spacing:3px; font-size:18px;}
 @media only screen and (max-width: 352px)
 {
 
+.myphoto{height:500px; width:auto;}
+          
 .abhishek h2{font-size:350%;}
 .abhishek p{font-size:150%;}
 

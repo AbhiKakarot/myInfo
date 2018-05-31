@@ -1,5 +1,3 @@
-html,body{max-width:1140px; height:auto;}
-
 body { background:white; margin:0px;}
 
 .resume{background:url('images/bg.jpg');background-attachment:fixed;background-size:contain;width:100vw;}
@@ -41,16 +39,11 @@ text-align:center;
 
 .myphoto 
 {
-background-image:-webkit-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/IMG_5011.JPG');
-background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/IMG_5011.JPG');
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/IMG_5011.jpg');
 height:100vh;
 width:100vw;
 background-size:cover;
 background-attachment:fixed;
-background-position:center;
--webkit-background-size:cover;
--webkit-background-attachment:fixed;
--webkit-background-position:center;
 margin-bottom:70px;
 position:relative;
 }
@@ -144,8 +137,6 @@ text-align:center;
 margin-bottom:12px;
 }
 
-section,footer{width:100vw;}
-
 section h1{
 font-family:'Satisfy',cursive;
 text-align:center;
@@ -179,8 +170,6 @@ p{word-spacing:3px; font-size:18px;}
 @media only screen and (max-width: 352px)
 {
 
-.myphoto{height:500px; width:auto;}
-          
 .abhishek h2{font-size:350%;}
 .abhishek p{font-size:150%;}
 

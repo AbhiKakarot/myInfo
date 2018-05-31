@@ -17,16 +17,6 @@ img{width:100%; height:auto;}
 .A{position:absolute; left:11%; top:-20%; font-family:'Gloria Hallelujah',cursive; font-size:31px; color:white;}
 .M{position:absolute; left:40%; font-family:'Gloria Hallelujah',cursive; font-size:31px; color:white;}
 
-
-.content
-{
-text-align:center;
-display:none;
-}
-.content h2{font-size:30px; font-family:'Pacifico',cursive;}
-.fa{font-size:160px;}
-.content h4{font-size:50px; font-family:'Satisfy',cursive;}
-
 @media only screen and (max-width: 360px)
 {
 .navbar{height:40px;}
@@ -38,6 +28,4 @@ display:none;
 .border:hover{border:1px solid #FD5607;}
 .border>.A:hover{color:#FD5607;}
 .border>.M:hover{color:#FD5607;}
-
-
 }

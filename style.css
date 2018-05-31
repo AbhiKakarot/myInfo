@@ -1,13 +1,9 @@
 body { background:white; margin:0px;}
 
-.resume{background:url('images/bg.jpg'); background-attachment:fixed; background-size:contain;
- width:100vw; }
+.resume{background:url('images/bg.jpg');background-attachment:fixed;background-size:contain;width:100vw;}
 
 .class-projects{font-weight:200; color:black; font-family:'Helvetica',cursive; font-size:0.8em;}
 
-.header h3{    -webkit-margin-before: 0px;
-    -webkit-margin-after: 0px;}
-.header h3{color:black; font-family:'Itim',cursive;}
 h3{color:blue;}
 .margin-below{margin-bottom:70px;}
 
@@ -17,14 +13,6 @@ border-top:solid #C46561 9px; border-bottom:solid #C46561 9px;
 contain:content;
 }
 .hand-img{height:50px;}
-.bg
-{
-position:relative;
-height:70vh;
-width:100vw;
-background:#2DBFFF;
-margin-bottom:200px;
-}
 
 .ch2{font-family:'Itim',cursive;}
 
@@ -51,41 +39,125 @@ text-align:center;
 
 .myphoto 
 {
-position:absolute;
-top:75%;
-left:45%;
-background-image: url("images/ME.jpg");
-background-size:100%;
-background-repeat:no-repeat;
-border-radius:50%;
-height:200px;
-width:200px;
-border:5px solid white;
-/*-ms-transform: rotate(-25deg); // IE 9 
-    -webkit-transform: rotate(-25deg); // Chrome, Safari, Opera*/
-transform: translate(-25%,0) rotate(-35deg); 
-
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/IMG_5011.jpg');
+height:100vh;
+width:100vw;
+background-size:cover;
+background-attachment:fixed;
+margin-bottom:70px;
+position:relative;
 }
+
+.education{
+background-color:#f4f4f4;
+}
+
+.myphoto_1{
+background-image:url('images/ME.jpg');
+position:absolute;
+top:20%;
+left:2%;
+height:150px;
+width:150px;
+border-radius:50%;
+border:2px solid #2DBFFF;
+background-size:cover;
+background-position:center;
+transform: translate(0,-50%) rotate(-35deg);
+}
+
+.abhishek{
+position:absolute;
+top:60%;
+left:2%;
+}
+
+.abhishek h2{
+margin:0;
+padding:0;
+font-size:400%;
+font-family:'Satisfy',cursive;
+color:#fff;
+}
+.abhishek p{
+font-family:'Lato',cursive;
+font-style:italic;
+font-size:200%;
+color:#2DBFFF;
+}
+
+.fa-hand-o-right
+{
+color:#fff;
+opacity:0;
+vertical-align:middle;
+transition:opacity 0.2s;
+}
+.flw-btn:hover > .fa-hand-o-right{
+opacity:1;
+}
+
+.flw-btn{
+position:absolute;
+top:10%;
+right:5%;
+}
+.flw-btn a{
+font-size:125%;
+font-family:'Itim',cursive;
+}
+
+.flw-btn a:link,
+.flw-btn a:visited{
+display:inline-block;
+padding:5px 22px;
+font-weight:300;
+color:#2DBFFF;
+border:1px solid #2DBFFF;
+border-radius:200px;
+text-decoration:none;
+}
+
+.flw-btn a:hover,
+.flw-btn a:active{
+color:#fff;
+background-color:#2DBFFF;
+}
+
+.fa-instagram:hover{color:#8a3ab9;}
+.fa-github:hover{}
+.fa-google-plus:hover{color:#dd4b39;}
+.fa-user:hover{color:#2DBFFF;}
+.fa-linkedin:hover{color:#007bb5;}
+.fa-picture-o:hover{color:#e67e22;}
 
 section
 {
-
 text-align:center;
+margin-bottom:12px;
 }
 
 section h1{
 font-family:'Satisfy',cursive;
 text-align:center;
           }
+section h1:after{
+display:block;
+height:2px;
+background-color:#2DBFFF;
+content:" ";
+width:100px;
+margin:0 auto;
+margin-top:20px;
+}
 
-footer{text-align:center; background:black; padding:15px;}
+footer{text-align:center; background:#111; padding:15px;}
 footer h1{color:white; font-family:'Itim',cursive;}
 footer address{color:white;}
 .fa-2x{padding:2px;}
 .social-icons{padding:0px;}
 .social-icons li{display:inline-block; padding:none; list-style:none;}
 .social-icons li a{color:white; text-decoration:none;}
-.social-icons li a:hover{ color:#2DBFFF; }
 .lt{margin-top:10px;}
 .lt span{color:white; font-size:16px;}
 
@@ -95,13 +167,14 @@ footer address{color:white;}
 
 p{word-spacing:3px; font-size:18px;}
 
-@media only screen and (max-width: 350px)
+@media only screen and (max-width: 352px)
 {
-.myphoto
-{
-height:160px;
-width:160px;
-}
+
+.abhishek h2{font-size:350%;}
+.abhishek p{font-size:150%;}
+
+.flw-btn a{font-size:100%;}
+
 .content h1{
 font-size:1.5em;
 }
@@ -117,11 +190,6 @@ font-size:1em;
 }
 @media only screen and (min-width: 540px) and (max-width:700px)
 {
-.myphoto
-{
-height:190px;
-width:190px;
-}
 
 .hand-img{height:40px;}
 
@@ -130,22 +198,13 @@ width:190px;
 @media only screen and (min-width: 460px) and (max-width: 540px)
 {
 .hand-img{height:40px;}
-.myphoto
-{
-height:180px;
-width:180px;
-}
 
 }
 
 @media only screen and (min-width: 400px) and (max-width: 460px)
 {
 .hand-img{height:30px;}
-.myphoto
-{
-height:170px;
-width:170px;
-}
+
 .content h1{
 font-size:1.5em;
 }
@@ -161,11 +220,6 @@ font-size:1em;
 
 @media only screen and (min-width: 350px) and (max-width: 400px)
 {
-.myphoto
-{
-height:180px;
-width:180px;
-}
 .content h1{
 font-size:1.5em;
 }
@@ -178,4 +232,13 @@ font-size:1em;
 }
 
 
+@media only screen and (min-height:1000px)
+{
+.abhishek h2{font-size:550%;}
+.abhishek p{font-size:325%;}
 
+.myphoto_1{ height:275px; width:275px;}
+.flw-btn a{font-size:225%;}
+.fa-hand-o-right{font-size:225%;}
+
+}

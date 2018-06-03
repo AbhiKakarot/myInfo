@@ -40,7 +40,7 @@ text-align:center;
 .myphoto 
 {
 background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/IMG_5011.JPG');
-height:100vh;
+height:700px;
 width:100vw;
 background-size:cover;
 background-attachment:fixed;

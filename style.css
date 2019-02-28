@@ -1,5 +1,7 @@
 body { background:white; margin:0px;}
 
+.active:hover{ color:#2DBFFF; font-size:106%; text-decoration:none !important; line-height:106%;}
+
 .resume{background:url('images/bg.jpg');background-attachment:fixed;background-size:contain;width:100vw;}
 
 .class-projects{font-weight:200; color:black; font-family:'Helvetica',cursive; font-size:0.8em;}

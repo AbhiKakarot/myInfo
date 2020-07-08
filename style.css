@@ -159,7 +159,7 @@ margin-bottom:12px;
 }
 
 section h1{
-font-family:'Indie Flower',cursive;
+font-family:'Merienda One',cursive;
 text-align:center;
           }
 section h1:after{
@@ -192,7 +192,7 @@ footer address{color:white;}
 	background: rgba(1,1,1,0.6);
 	border-radius: 10px;
 }
-p{word-spacing:3px; font-size:18px; font-family: 'Indie Flower', cursive;}
+p{word-spacing:3px; font-size:18px; font-family: 'Dosis', sans-serif;}
 
 @media only screen and (max-width: 767px)
 {

@@ -37,16 +37,17 @@
         <div class="social-icons">
           <ul>
             <li v-for="(si, index) in socialIcons" :key="index">
-              <a :href="si.url"><i :class="si.social"></i></a>
+              <a :href="si.url" :target="si.target"><i :class="si.social"></i></a>
             </li>
           </ul>
         </div>
       </div>
       <div class="abhishek-div">
         <div class="logo-name">
+          <div class="abhishek-mobile-image"></div>
           <h1  data-aos="zoom-in">Abhishek Munjal</h1>
         </div>
-      	<div class="abhishek-image"><img src="images/abhishek.png"/></div>
+      	<div class="abhishek-image"><img src="images/abhishek_min.png"/></div>
       </div>
     </div>
   </section>
@@ -83,19 +84,22 @@
         <h2 class="border-anim">About Me</h2>
         <div class="about-text-p">
           "<span id="changingGreet">Hello</span>", I am a freelance full stack developer from Delhi, India<br>
-          I love to code and try to make things easy for people around me.
+          I love to code and try to make things simple for everyone.
+        <div class="rest-about-me">
           <h3 class="border-anim">What can I do for you?</h3><br>
           <span>I can</span>
           <ul>
             <li>Take your business online</li>
             <li>Be a teacher for you or your kids</li>
-            <li>Explain you computer science like "__synonym for easy__"</li>
+            <li>Explain you computer science as easy as ABC</li>
             <li>Develop web applications for you</li>
+            <li>Design Web Pages for you</li>
             <li>Create web services</li>
           </ul>
           <div class="contact-button">
-            <button onclick="scrollToContact()">I am confused 🙈</button>
+            <button onclick="scrollToSection('#sec4')">I am confused 🙈</button>
           </div>
+        </div>
         </div>
       </div>
   	</div>
@@ -333,6 +337,7 @@
 
 <section id="sec4" class="footer-section">
 <div class="panel-box">
+  <h2 class="say-hi">Say Hi!</h2>
 <div class="tab">
   <button class="tablinks" onclick="switchTabs(event, 'tab1')"><span>Reach out&nbsp;</span><i class="fas fa-code"></i></button>
   <button class="tablinks active" onclick="switchTabs(event, 'tab2')"><span>I don't know coding&nbsp;</span><i class="far fa-envelope"></i></button>
@@ -423,12 +428,45 @@
   <p>Tokyo is the capital of Japan.</p>
 </div-->
 </div>
-<div class="footer-main">
+<div class="footer-main main">
+  <div class="work-samples section">
+    <div class="title">
+      <span>Projects I have done so far</span>
+    </div>
+    <div class="lx-container-80">
+      <div class="lx-row">
+        <div class="lx-card carousel-container">
+          <div class="item fade">
+            <div class="image"><img src="images/houseitt.jpg"/></div>
+            <div class="text is-text-left">
+              <h4 class="title"> <a href="https://houseitt.in/" target="blank_">Houseitt&nbsp;<i class="fas fa-external-link-alt"></i></a></h4>
+              <p>Student Houseitt Platform</p>
+            </div>
+          </div>
+          <div class="item fade">
+            <div class="image"><img src="images/elucidationtoday.png"/></div>
+            <div class="text is-text-left">
+              <h4 class="title"><a href="https://elucidationtoday.com/" target="blank_">Elucidation Today&nbsp;<i class="fas fa-external-link-alt"></i></a></h4>
+              <p>Elucidation today is determined to make India skilled, employable and next entrepreneurs</p>
+            </div>
+          </div>
+          <div class="item fade">
+            <div class="image"><img src="images/schoolbells.jpg"/></div>
+            <div class="text is-text-centered">
+              <h4><a href="http://schoolbells.in/" target="blank_">Schoolbells&nbsp;<i class="fas fa-external-link-alt"></i></a></h4>
+              <p>School-Parent Communication App</p>
+            </div>
+          </div><a class="prev has-dflex-center"><i class="fas fa-angle-left"></i></a><a class="next has-dflex-center"><i class="fas fa-angle-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="footer-bottom">
-    <span class="copyright">Made with ♡ in India. Abhishek Munjal © 2020</span>
+    <div class="copyright">Made with ♡ in India. Abhishek Munjal © 2020</div>
   </div>
 </div>
 </section>
+
 <div class="scroll-down-container">
   <a href="#sec2" id="next">
     <div class="container-chev">
@@ -439,7 +477,38 @@
   </a>
 </div>
 
+<div class="whatsapp-btn">
+  <a href="https://wa.me/919891333838" target="blank_"><i class="fab fa-whatsapp"></i></a>
+</div>
 
+<div class="navigation-bar">
+  <div class="nav-row">
+    <div class="nav-column" onclick="scrollToSection('#sec1')"><i class="fas fa-home"></i></div>
+    <div class="nav-column" onclick="scrollToSection('#sec2')"><i class="fas fa-info-circle"></i></div>
+    <div class="nav-column" onclick="scrollToSection('#sec3')"><i class="fas fa-graduation-cap"></i></div>
+    <div class="nav-column" onclick="scrollToSection('#sec4')"><i class="fas fa-phone"></i></div>
+    <div class="nav-column" onclick="window.open('https://wa.me/919891333838')"><i class="fab fa-whatsapp"></i></div>
+  </div>
+</div>
+</div>
+
+
+<div id="page_loader">
+</div>
+
+<!--div class="container">
+  <div class="interior">
+    <a class="btn" href="#open-modal">👋 Basic CSS-Only Modal</a>
+  </div>
+</div-->
+<div id="open-modal" class="modal-window">
+  <div>
+    <a href="#" title="Close" class="modal-close">Close</a>
+    <h1>Voilà!</h1>
+    <div>A CSS-only modal based on the :target pseudo-class. Hope you find it helpful.</div>
+    <div><small>Check out</small></div>
+    <a href="https://aminoeditor.com" target="_blank">👉 Amino: Live CSS Editor for Chrome</div>
+    </div>
 </div>
 
 
@@ -515,6 +584,19 @@ $(function()
       }
       )
   });
+
+
+document.onreadystatechange = function () {
+  var state = document.readyState
+  if (state == 'interactive') {
+       document.getElementById('page_loader').style.visibility="visible";
+  } else if (state == 'complete') {
+      setTimeout(function(){
+         document.getElementById('page_loader').style.visibility="hidden";
+      },1000);
+  }
+}
+
 </script>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
 <!--<script src="https://cdn.jsdelivr.net/npm/vue-agile@0.3.7/dist/vue-agile.min.js"></script>

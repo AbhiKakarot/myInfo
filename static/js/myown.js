@@ -186,15 +186,17 @@ app = new Vue({
           });
         },
     collapsed: function(event){
-      if($(event.target).hasClass('collapse-right')){
-        $(event.target).siblings().hide();
-        $(event.target).removeClass('collapse-right');
-        $(event.target).addClass('collapse-down');  
-      }
-      else{
-        $(event.target).siblings().show();
-        $(event.target).removeClass('collapse-down');
-        $(event.target).addClass('collapse-right');  
+      if(event.target.tagName == 'LABEL'){
+        if($(event.target).hasClass('collapse-right')){
+          $(event.target).siblings().hide();
+          $(event.target).removeClass('collapse-right');
+          $(event.target).addClass('collapse-down');  
+        }
+        else{
+          $(event.target).siblings().show();
+          $(event.target).removeClass('collapse-down');
+          $(event.target).addClass('collapse-right');  
+        }
       }
     }
   },

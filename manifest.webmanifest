@@ -1,0 +1,24 @@
+{
+  "short_name": "Abhishek",
+  "name": "Abhishek Munjal | Personal Website Design | Portfolio",
+  "description": "Portfolio of Abhishek Munjal",
+  "icons": [
+    {
+      "src": "pwa/icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "pwa/icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/myInfo/index.html",
+  "background_color": "#F2F2F2",
+  "display": "standalone",
+  "scope": "/myInfo/",
+  "theme_color": "#F2F2F2",
+  "orientation": "any",
+  "shortcuts": []
+}

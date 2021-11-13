@@ -158,10 +158,8 @@ app = new Vue({
       vMessage: '',
 
       socialIcons: [
-      {social: 'fas fa-file', url: 'https://drive.google.com/file/d/14CNGW8TiQN-z8pLdPbpsz6_nfG6BNa0i/view?usp=sharing', target: '_blank'},
-      //{social: 'fab fa-facebook', url: '#open-modal', target:''},
       {social: 'fab fa-instagram', url: 'https://instagram.com/abhishek__munjal/', target:''},
-      {social: 'fab fa-linkedin', url: 'https://www.linkedin.com/in/abhishek-munjal-619017a9/',target:'_blank'},
+      {social: 'fab fa-linkedin', url: 'https://www.linkedin.com/in/abhishek-munjal/',target:'_blank'},
       {social: 'fab fa-github', url: 'https://github.com/AbhiKakarot/',target:'_blank'},
       {social: 'far fa-envelope', url: 'mailto:munjalabhishek1996@gmail.com',target:'_blank'},
       ],
@@ -170,7 +168,7 @@ app = new Vue({
         "Namaste",
         "Sat sri akaal",
         "Salaam",
-        "Aadaab",
+        "Hola",
         "Hello"
       ],
 

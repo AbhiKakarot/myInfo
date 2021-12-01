@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Things that I generally forget the syntax of
 ###### These things may and may not be useful for you
-<p align="right">(<a href="#top">Skip to resources</a>)</p>
+<p align="right">(<a href="#things-that-come-handy-to-me-resources">Skip to resources</a>)</p>
 
 
 ### 1. Font Face
